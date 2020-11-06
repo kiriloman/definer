@@ -34,8 +34,8 @@ class Definer:
             lang = data[1]
 
             defined_word = DefinerClient().get_definition(
-                word=word.strip(' '),
-                lang=lang.strip(' '),
+                word=word.strip(),
+                lang=lang.strip(),
             )
 
             if isinstance(defined_word, dict):
