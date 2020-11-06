@@ -8,7 +8,7 @@ class Definer:
             print("""
                     Input a word and 
                     the language the word is in 
-                    separated by commas (,).
+                    separated by a comma (,).
                     Example: hello,en
                     
                     To exit, type -1.
