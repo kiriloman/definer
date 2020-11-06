@@ -8,7 +8,7 @@ class Definer:
             print("""
                     Input a word and 
                     the language the word is in 
-                    separated by commas (,).
+                    separated by a comma (,).
                     Example: hello,en
                     
                     To exit, type -1.
@@ -34,8 +34,8 @@ class Definer:
             lang = data[1]
 
             defined_word = DefinerClient().get_definition(
-                word=word.strip(' '),
-                lang=lang.strip(' '),
+                word=word.strip(),
+                lang=lang.strip(),
             )
 
             if isinstance(defined_word, dict):
