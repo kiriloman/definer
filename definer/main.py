@@ -1,8 +1,8 @@
-from definer import Definer
+from definer import define
 
 
 def main():
-    Definer().define()
+    define()
 
 
 if __name__ == '__main__':
